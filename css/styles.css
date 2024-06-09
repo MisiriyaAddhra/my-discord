@@ -255,6 +255,7 @@ h1,h3,h2{
     cursor: pointer;
     transition:color 0.3s, box-shadow 0.3s;
     background-color: #404eed;
+    text-decoration: none;
 }
 
 /* Styling the #footer section */
@@ -414,7 +415,7 @@ footer .top-right .link-boxes .box{
         background-image:  url(../image/spot1.svg),url(../image/starpink.svg), url(../image/starpink.svg), url(../image/starpink.svg), url(../image/starpink.svg);
         background-repeat: no-repeat;
         background-position: bottom right, center,right center,center top,bottom center;
-        background-size: 500px 256px;
+        background-size: 653px 333px,590px 250px;
         height: 100vh;
     } 
     #home .wrapper header{
@@ -472,9 +473,14 @@ footer .top-right .link-boxes .box{
     }
     #feature .content-item .wrapper{ 
         flex-direction: column;
+        padding: 50px 0;
      }
      #feature .content-item .content  { 
         width: 100%;
+        padding: 0;
+    }
+    #about {
+        padding: 60px 0;
     }
     #about .wrapper .start {
         text-align: start;
@@ -496,6 +502,9 @@ footer .top-right .link-boxes .box{
     .checkbtn{
         margin-left: 290px;
     }
+    #home{
+        background-size: 500px 256px
+    }
     #home .wrapper header .left {
         width: 22%;
     }
@@ -508,6 +517,7 @@ footer .top-right .link-boxes .box{
         background-image: url(../image/starpink.svg), url(../image/starpink.svg), url(../image/starpink.svg);
         background-repeat: no-repeat;
         background-position: left center,bottom right,center top;
+        height: 90vh;
     }
     #home .wrapper header .left {
         width: 28%;
@@ -516,16 +526,21 @@ footer .top-right .link-boxes .box{
         margin-left: 190px;
     }
     #home .wrapper #spotlight{
-        margin-top: 35%;
+        margin-top: 29%;
+        text-align: center;
     }
     #home .wrapper #spotlight h1 {
         font-size: 3rem;
     }
+    #home .wrapper #spotlight p {
+        padding: 0 20px;
+        width: 100%;
+    }
     #home .wrapper #spotlight ul li.black .button {
-        padding: 15px 80px;
+        padding: 15px 70px;
     }
     #home .wrapper #spotlight ul li.white .button {
-        padding: 15px 60px
+        padding: 15px 50px
     }
     #home .wrapper #spotlight ul{
         align-items: center;
@@ -542,6 +557,9 @@ footer .top-right .link-boxes .box{
     .footer-bottom .footer-bottom-left {
         width: 20%;
     }
+    footer .top-right .link-boxes .box {
+        margin-bottom: 25px
+    }
 }
 
 
@@ -551,15 +569,6 @@ footer .top-right .link-boxes .box{
     }
     #home .wrapper #spotlight  h1 {
         font-size: 45px;
-    }
-    #home .wrapper #spotlight ul {
-        align-items: flex-start;
-    }
-    #home .wrapper #spotlight ul li.black .button {
-        padding: 15px 25px;
-    }
-    #home .wrapper #spotlight ul li.white .button {
-        padding: 15px 25px;
     }
 }
 
@@ -577,6 +586,9 @@ footer .top-right .link-boxes .box{
     #home .wrapper #spotlight p {
         font-size: 14px;
     }
+    #home .wrapper #spotlight ul {
+        gap: 1em;
+    }
     #home .wrapper #spotlight ul li.black .button {
         padding: 15px 20px;
         font-size: 13px;
@@ -592,3 +604,5 @@ footer .top-right .link-boxes .box{
         font-size: 22px;
     }
 }
+
+/* end */
